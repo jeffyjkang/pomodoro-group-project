@@ -102,7 +102,7 @@ class App extends React.Component {
 	// fires once when false, either in timer or timeFunc
 	timer = () => {
 		console.log('timer run', this.state.running)
-		this.state.running ? setTimeout(this.timeFunc, 50) : clearInterval(this.timer)
+		this.state.running ? setTimeout(this.timeFunc, 500) : clearInterval(this.timer)
 	}
 
 	timeFunc = () => {
