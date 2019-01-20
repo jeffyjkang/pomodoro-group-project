@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+
 //session length component
 const SessionLength = props => {
   return (
@@ -17,7 +17,7 @@ const SessionLength = props => {
       </form>
       <button onClick={props.submitLength}>Submit session length</button>
     </div>
-  );
-};
+  )
+}
 
-export default SessionLength;
+export default SessionLength

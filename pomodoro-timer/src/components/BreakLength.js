@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+
 //break length component
 const BreakLength = props => {
   return (
@@ -17,7 +17,7 @@ const BreakLength = props => {
       </form>
       <button onClick={props.submitBreak}>Submit break length</button>
     </div>
-  );
-};
+  )
+}
 
-export default BreakLength;
+export default BreakLength
